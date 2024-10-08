@@ -65,10 +65,6 @@ MarkUp is open-source and licensed under the MIT License. See the `LICENSE` file
 - [ ] Implement drag-and-drop file loading.
 - [ ] Add theme options (light/dark mode).
 - [ ] Expand browser support for advanced file handling.
-  
-## Screenshots
-
-*(Optional: Add screenshots of the editor interface here)*
 
 ## Acknowledgments
 
