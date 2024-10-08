@@ -31,6 +31,9 @@ MarkUp is a lightweight, browser-based Markdown editor that provides real-time p
 
 4. Start typing Markdown in the editor on the left, and see the live preview on the right. When you're ready, click "Save File" to download the markdown file to your local machine.
 
+<img width="1228" alt="MarkUP" src="https://github.com/user-attachments/assets/065724dc-4810-4e69-a189-73e60a2ea9ba">
+
+
 ## Technologies Used
 
 - **HTML5**: The structure of the application.
