@@ -63,7 +63,6 @@ MarkUp is open-source and licensed under the MIT License. See the `LICENSE` file
 
 - [ ] Add support for syntax highlighting in code blocks.
 - [ ] Implement drag-and-drop file loading.
-- [ ] Add theme options (light/dark mode).
 - [ ] Expand browser support for advanced file handling.
 
 ## Acknowledgments
