@@ -1,12 +1,11 @@
 // Markdown input and preview elements
 const markdownInput = document.getElementById('markdown-input');
 const preview = document.getElementById('preview');
+const darkModeButton = document.getElementById('dark-mode-button');
 
 // Live update preview when typing
 markdownInput.addEventListener('input', (event) => {
     const markdownText = event.target.value;
-    
-    // Update the right side with the converted markdown to HTML using marked.js
     preview.innerHTML = marked.parse(markdownText);
 });
 
@@ -35,4 +34,9 @@ document.getElementById('save-button').addEventListener('click', async () => {
         a.click();
         URL.revokeObjectURL(a.href);
     }
+});
+
+// Toggle dark mode functionality
+darkModeButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
 });
